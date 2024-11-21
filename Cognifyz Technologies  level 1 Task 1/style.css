@@ -1,0 +1,129 @@
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #000000;
+}
+
+
+nav {
+    background-color: #000000;
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: blue;
+}
+
+
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(to right top, #000000, #1900ff);
+    color: white;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+
+.content-section {
+    text-align: center;
+    padding: 2px 20px;
+}
+
+.content-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.content-section p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.content-section img {
+    max-width: 500px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+form {
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: left;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    display: block;
+}
+
+form input {
+    width: 96%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #1100ff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s;
+}
+
+form button:hover {
+    background-color: #000000;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: linear-gradient(to top, #1900ff88, #000000);
+    color: white;
+    font-size: 0.9rem;
+}
